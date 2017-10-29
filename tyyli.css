@@ -1,0 +1,19 @@
+	body {
+    background-color: gray;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 25px;
+	text-align: right;
+}
+
+h2 {
+	color: white;
+	text-align: left;
+	}
