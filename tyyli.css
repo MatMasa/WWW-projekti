@@ -5,6 +5,10 @@ body {
 h1 {
     color: black;
     text-align: center;
+	border: 3px solid #4245f4;  /* Väliaikaista testausta varten  */
+    margin: 0;
+    padding: 5px;
+	
 }
 
 p {
@@ -16,4 +20,28 @@ p {
 h2 {
 	color: black;
 	text-align: left;
+}
+
+/* Avaamaton linkki  */
+a:link {
+    color: blue;
+	text-decoration: none;
+}
+
+/* Aiemmin avattu linkki */
+a:visited {
+    color: blue;
+	text-decoration: none;
+}
+
+/*  Hiiri linkin päällä */
+a:hover {
+    color: #ff0000;
+	text-decoration: underline;
+}
+
+/* Valittu linkki */
+a:active {
+    color: black;
+	text-decoration: none;
 }
