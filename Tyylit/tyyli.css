@@ -1,11 +1,9 @@
 body {
-    background-color: white;
 	border:2px solid #c1c1c1; /* Väliaikaista testausta varten  */
 	padding:10px;
 }
 
 h1 {
-    color: black;
     text-align: center;
 	border: 3px solid #c1c1c1;  /* Väliaikaista testausta varten  */
     margin: 0;
@@ -15,13 +13,8 @@ h1 {
 
 p {
     font-family: verdana;
-    font-size: 25px;
+    font-size: 100%;
 
-}
-
-h2 {
-	color: black;
-	text-align: left;
 }
 
 nav {
