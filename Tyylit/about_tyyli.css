@@ -1,0 +1,8 @@
+#kartta {	/* Määrittää "Ota Yhteyttä" sivun responsiiviset mitat (<iframe id="kartta") */
+	max-width:95%;
+	max-height:90%;
+	margin-left: 2%;
+	
+	
+	
+}
