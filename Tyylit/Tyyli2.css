@@ -1,0 +1,45 @@
+footer {
+
+    position: fixed;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    background-color: #efefef;
+    text-align: center;
+    width:100%;
+  }
+
+
+body {
+    font-family:"Lato", sans-serif
+}
+nav {
+    font-size: 150%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a {
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav a.aktiivinen {
+    background-color: #e2e2e2;
+}
+
+nav a:hover:not(.aktiivinen) {
+    background-color: #555;
+    color: white;
+}
+
+@media only screen and (max-width: 650px) { /* ruudun leveyden ollessa max 650px */
+    nav a {
+        display: block;  /* navigointipalkki on pystysuunnassa */
+    }
+    footer {
+        position: relative; /* Alapalkki irti fixatusta astelmasta */
+
+    }
+}
