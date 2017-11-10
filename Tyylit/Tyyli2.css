@@ -1,45 +1,67 @@
+
+
+body {    
+    font-family:"Lato", sans-serif;
+    padding-top: 1%;
+    padding-bottom: 5%; 
+    margin-left: 0px;
+
+}
+
 footer {
 
     position: fixed;
     clear: both;
     bottom: 0;
     left: 0;
-    padding: 1em;
+    padding: 0px;
     background-color: #efefef;
     text-align: center;
     width:100%;
   }
 
 
-body {
-    font-family:"Lato", sans-serif
-}
+
 nav {
+    position: fixed;
     font-size: 150%;
     list-style-type: none;
     text-align: center;
+    background-color: #f0f0f0;
+    padding: 8px 16px;
+    top: 0;
+    width: 100%
+
+    
 }
 
 nav a {
     padding: 8px 16px;
     text-decoration: none;
+    
+}
+nav a:link, a:visited {
+    color: black;
 }
 
-nav a.aktiivinen {
-    background-color: #e2e2e2;
+nav a.aktiivinen { /* Sivu, jolla tällä hetkellä ollaan */
+    background-color: #555555;
+    color:white;
 }
 
 nav a:hover:not(.aktiivinen) {
-    background-color: #555;
+    background-color: #555555;
     color: white;
 }
 
 @media only screen and (max-width: 650px) { /* ruudun leveyden ollessa max 650px */
+    nav{ 
+        padding: 0px ;
+        margin: 0px;
+        posit
+    }
     nav a {
         display: block;  /* navigointipalkki on pystysuunnassa */
     }
-    footer {
-        position: relative; /* Alapalkki irti fixatusta astelmasta */
-
+    
     }
-}
