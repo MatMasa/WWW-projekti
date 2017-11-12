@@ -8,21 +8,8 @@ body {
 
 }
 
-footer {
-
-    position: fixed;
-    clear: both;
-    bottom: 0;
-    left: 0;
-    padding: 0px;
-    background-color: #efefef;
-    text-align: center;
-    width:100%;
-  }
-
-
-
-nav {
+header {
+    overflow: hidden;
     position: fixed;
     font-size: 150%;
     list-style-type: none;
@@ -30,11 +17,33 @@ nav {
     background-color: #f0f0f0;
     padding: 8px 16px;
     top: 0;
-    width: 100%
+    width: 100%;
 
-    
+}
+#logo {
+    margin: 5px;
+	float: left;
+	width: 200px;
+	height: 80px;
+	background: url(../Kuvat_taustakuvat/Logowait.png) no-repeat center;
+	display: block;
 }
 
+#mobiili_valikko {   /* Sivu, jolla tällä hetkellä ollaan */
+    float: right;
+    display: none;
+    width: 24px;
+	height: 40px;
+    margin: 5%;
+    background: url(../Kuvat_taustakuvat/menu.png) center;
+}
+
+a:hover#mobiili_valikko {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
 nav a {
     padding: 8px 16px;
     text-decoration: none;
@@ -54,14 +63,40 @@ nav a:hover:not(.aktiivinen) {
     color: white;
 }
 
+footer {
+
+    position: fixed;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    padding: 0px;
+    background-color: #efefef;
+    text-align: center;
+    width:100%;
+  }
+
+
+
 @media only screen and (max-width: 650px) { /* ruudun leveyden ollessa max 650px */
-    nav{ 
-        padding: 0px ;
-        margin: 0px;
-        posit
-    }
+  
     nav a {
-        display: block;  /* navigointipalkki on pystysuunnassa */
+        display: none;  /* Navigointipalkin sivut häviää */
     }
     
+
+    header {
+         
+        position: absolute;
     }
+        
+    #mobiili_valikko {
+        display:inline-block;
+    }
+
+}
+@media only screen and (max-width: 800px) {
+    
+    header {
+        font-size: 95%;
+    }
+}
