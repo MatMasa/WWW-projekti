@@ -1,0 +1,40 @@
+.yhteystiedot_kortti {
+    box-shadow: 1px 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:50%; 
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.yhteystiedot_kortti h2 {
+    font-size: 2em;
+}
+
+.yhteystiedot_kortti p {
+    font-size: 150%;
+
+}
+
+.profiilikuva {
+    width: 120px;
+    height: auto;
+    float: right;
+}
+
+@media only screen and (max-width: 650px) {
+
+    .yhteystiedot_kortti {
+        width: 100%;
+    }
+    .yhteystiedot_kortti p {
+        font-size: 100%
+    }
+    .yhteystiedot_kortti h2 {
+        font-size: 1.5em;
+    }
+}
+    .profiilikuva {
+
+        clear: both;
+    }
