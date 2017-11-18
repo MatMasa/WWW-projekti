@@ -2,7 +2,7 @@
 
 body {    
     font-family:"Lato", sans-serif;
-    padding-top: 2%;
+    padding-top: 100px; 
     padding-bottom: 5%; 
     margin-left: 0px;
 
@@ -32,12 +32,16 @@ header {
 #mobiili_valikko {   /* Sivu, jolla tällä hetkellä ollaan */
     float: right;
     display: none;
+
     width: 24px;
-	height: 40px;
-    margin: 5%;
+	height: 10px;
+    margin: 10px;
     background: url(../Kuvat_taustakuvat/menu.png) center;
 }
+#logoteksti {
+    display: none;
 
+}
 a:hover#mobiili_valikko {
 
 	background-color: #444;
@@ -62,7 +66,9 @@ nav a:hover:not(.aktiivinen) {
     background-color: #555555;
     color: white;
 }
-
+article {
+    text-align: center;
+}
 footer {
 
     position: fixed;
@@ -78,25 +84,32 @@ footer {
 
 
 @media only screen and (max-width: 650px) { /* ruudun leveyden ollessa max 650px */
-  
     nav a {
         display: none;  /* Navigointipalkin sivut häviää */
     }
     
-
-    header {
-         
-        position: absolute;
-    }
         
     #mobiili_valikko {
         display:inline-block;
     }
-
+    #logo {
+        display: none;
+    }
+    #logoteksti {
+        display:block;
+        position: absolute;
+        text-decoration: none;
+        font-size: 2em;
+        background-color: #999999;
+        color: #0206ff;
+        padding: 5px;
+    }
 }
 @media only screen and (max-width: 800px) {
     
     header {
         font-size: 95%;
+
     }
+
 }

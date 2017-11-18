@@ -9,21 +9,17 @@
 	width:45%;
 
 }
-.tarina {  /* Tämä ei jää tähän! */
-	
-		columns: 100px 2;
-	}
-@media only screen and (max-width: 650px) {  /* Kartta täyttää koko sivun leveyden, kun ruudun leveys max 650px */
+iframe {
+	margin-left:1% 
+}
+
+@media only screen and (max-width: 800px) {
 	#kartta {
 		width:100%;
-
-	}
+}
 	.tietokartta {
 		font-size: 120%;
 		float: none;
 		width:100%;
-	}
-	.tarina {
-		columns:100px 1;
 	}
 }
