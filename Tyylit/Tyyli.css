@@ -1,30 +1,18 @@
-html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif
-}
+html {font-family:"Lato", sans-serif }
 
-/* vanhoja w3 määrityksiä. Käytä pohjana kun teet nämä uudestaan. Osa html koodista
-käyttää näitä viellä suoraan märityksissään class=joku alla olevista*/
 .center{text-align:center}
-.border{border:1px solid #ccc}
-.border-top{border-top:1px solid #ccc}
-.border-bottom{border-bottom:1px solid #ccc}
-.border-left{border-left:1px solid #ccc}
-.border-right{border-right:1px solid #ccc}
-.topbar{border-top:6px solid #ccc}
-.bottombar{border-bottom:6px solid #ccc}
-.leftbar{border-left:6px solid #ccc}
-.rightbar{border-right:6px solid #ccc}
 .section{margin-left:5%;margin-right:10%}
 .padding-64{padding-top:64px;padding-bottom:32px}
-.left{float:left}
-.right{float:right}
 
+.intro {
+    text-align: center;
+}
 
 
 
 body {    
-    font-family:"Lato", sans-serif;
-    padding-top: 100px; 
-    padding-bottom: 5%; 
+    padding-top: 150px; 
+    padding-bottom: 20px; 
     margin-left: 0px;
 
 }
@@ -35,7 +23,7 @@ header {
     font-size: 150%;
     list-style-type: none;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color:rgba(175,175,175,.6);
     padding: 8px 16px;
     top: 0;
     width: 100%;
@@ -50,7 +38,7 @@ header {
 	display: block;
 }
 
-#mobiili_valikko {   /* Sivu, jolla tällä hetkellä ollaan */
+#mobiili_valikko {   
     float: right;
     display: none;
 
@@ -89,7 +77,60 @@ nav a:hover:not(.aktiivinen) {
 }
 article {
     text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.diaesitys {display:none}
+
+/* Diaesityksen tilanvaraus */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+
+}
+
+
+
+/* Pisteet kuvasliden alla */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #666666;
+}
+
+/*  Vaihtoanimaatio */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+
+
 footer {
 
     position: fixed;
@@ -97,7 +138,9 @@ footer {
     bottom: 0;
     left: 0;
     padding: 0px;
-    background-color: #efefef;
+    background-color:rgba(150,150,150,.6);
+    color: #0206ff;
+    font-weight:bold;
     text-align: center;
     width:100%;
   }
@@ -132,5 +175,7 @@ footer {
         font-size: 95%;
 
     }
-
+    article {
+        width: 100%
+    }
 }
