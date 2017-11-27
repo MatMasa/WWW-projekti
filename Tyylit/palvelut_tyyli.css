@@ -1,3 +1,11 @@
 #palvelut {
     text-align: center;    /* Joo joo näyttää tyhmältä */  
 }
+
+#palvelut h3 {
+    color: #666666;
+}
+
+#palvelut p {
+    color: #2a2e5e;
+}
