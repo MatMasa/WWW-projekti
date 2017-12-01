@@ -35,7 +35,7 @@
 @media only screen and (max-width: 650px) {
     
         .yhteystiedot_kortti {
-            width: 100%;
+            width: 95%;
         }
         .yhteystiedot_kortti p {
             font-size: 100%

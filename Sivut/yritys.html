@@ -10,27 +10,31 @@
 	<link rel="icon" href="../Kuvat_taustakuvat/favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<header>
-		<a href="yritys_en.html" id="kieli">English</a> 
-		<a href="../etusivu.html" id="logoteksti">SP</a> 
+	<header class="responav" id="myResponav">
 		<nav> <!--Navigointipalkki-->
-			<a href="#" id="mobiili_valikko"></a>
 			<a href="../etusivu.html">Etusivu </a>
-			<a class="aktiivinen" href="yritys.html">Yritys </a>
+			<a class="active" href="yritys.html">Yritys </a>
 			<a href="palvelut.html">Palvelut </a>
 			<a href="henkilosto.html">Henkilöstö</a>
 			<a href="about.html">Ota yhteyttä</a>
+			<a class="kieli" href="yritys_en.html"><img src="../Kuvat_taustakuvat/gb.png"> </a>
+			<a class="kieli active" href="yritys.html"><img src="../Kuvat_taustakuvat/fi.png"> </a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mobiilivalikko()">&#9776;</a>
+			
+
 		</nav>
+		<script src="../Javascript/mobiilivalikko.js"></script>
 	</header>
 	
-	<h2> Yleistä yrityksestä</h2>
+	<h2> Stockfelt Partners - asianajoa vuodesta 2007</h2>
     <p> Mitä sinä odotat asianajotoimistolta? Jos etsit ripeää toimintaa ja käytännön bisnesjärkeä, mutta  jäykkät prosessit ja  pitkät, kiemuraiset sopimustekstit eivät ole sinun
     juttusi, olet tullut oikeaan paikkaan. Stockfelt Partners on kiristyskirjeisiin erikoistunut vuonna 2007 perustettu asianajotoimisto, jossa ymmärretään, että juridiikka ei ole
     yrittäjälle maailman keskipiste. Meille tärkeintä on auttaa yritystänne kehittymään ja saavuttamaan tavoitteensa.Juridinen osaamisemme on huipputasoa, mutta usein
     onnistumiseen tarvitaan laajempaa ymmärrystä bisneksestä – ja sitä meiltä löytyy. Liiketoiminta on nykypäivänä verkostoitunutta, ja lähes kaikkien yritysten toiminnassa
     on jonkinlainen kansainvälinen ulottuvuus. Tällaisessa toimintaympäristössä me olemme kotonamme. Oma toimistomme palvelee Turussa. Lisäksi tukenasi on laaja,
-    kansainvälinen verkosto asianajotoimistokumppaneita sekä monenlaisia yritystoiminnan asiantuntijoita.
-    </p>
+	kansainvälinen verkosto asianajotoimistokumppaneita sekä monenlaisia yritystoiminnan asiantuntijoita.</p>
+	<p>Lisätietoja <a href="palvelut.html">palveluistamme</a></p>
+	<p>Ota <a href="about.html">yhteyttä</a></body></p>
 	<footer> <!-- Alapalkki -->
 		<small>&copy; Copyright 2017 Stockfelt Partners </small>
 		<a href="../Verkko/Verkkosuunitelma.html" target="_blank">Tietoturva</a>

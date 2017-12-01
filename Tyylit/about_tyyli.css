@@ -15,7 +15,7 @@ iframe {
 
 @media only screen and (max-width: 800px) {
 	#kartta {
-		width:100%;
+		width:97%;
 }
 	.tietokartta {
 		font-size: 120%;

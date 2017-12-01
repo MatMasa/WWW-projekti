@@ -11,17 +11,20 @@
 	
 </head>
 <body>
-	<header>
-		<a href="henkilosto_en.html" id="kieli">English</a> 
-		<a href="../etusivu.html" id="logoteksti">SP</a> 
+	<header class="responav" id="myResponav">
 		<nav> <!--Navigointipalkki-->
-			<a href="#" id="mobiili_valikko"></a>
 			<a href="../etusivu.html">Etusivu </a>
 			<a href="yritys.html">Yritys </a>
 			<a href="palvelut.html">Palvelut </a>
-			<a class="aktiivinen" href="henkilosto.html">Henkilöstö</a>
+			<a class="active" href="henkilosto.html">Henkilöstö</a>
 			<a href="about.html">Ota yhteyttä</a>
+			<a class="kieli" href="henkilosto_en.html"><img src="../Kuvat_taustakuvat/gb.png"> </a>
+			<a class="kieli active" href="henkilosto.html"><img src="../Kuvat_taustakuvat/fi.png"> </a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mobiilivalikko()">&#9776;</a>
+			
+
 		</nav>
+		<script src="../Javascript/mobiilivalikko.js"></script>
 	</header>
 		<p>Tähän joku intro:</p>
 	  

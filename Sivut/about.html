@@ -10,24 +10,26 @@
 	<link rel="icon" href="../Kuvat_taustakuvat/favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<header>
-	
-		<a href="about_en.html" id="kieli">English</a> 
-		<a href="../etusivu.html" id="logoteksti">SP</a> 
+	<header class="responav" id="myResponav">
 		<nav> <!--Navigointipalkki-->
-			<a href="#" id="mobiili_valikko"></a>
 			<a href="../etusivu.html">Etusivu </a>
 			<a href="yritys.html">Yritys </a>
 			<a href="palvelut.html">Palvelut </a>
 			<a href="henkilosto.html">Henkilöstö</a>
-			<a class="aktiivinen" href="about.html">Ota yhteyttä</a>
+			<a class="active" href="about.html">Ota yhteyttä</a>
+			<a class="kieli" href="about_en.html"><img src="../Kuvat_taustakuvat/gb.png"> </a>
+			<a class="kieli active" href="about.html"><img src="../Kuvat_taustakuvat/fi.png"> </a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mobiilivalikko()">&#9776;</a>
+			
+
 		</nav>
+		<script src="../Javascript/mobiilivalikko.js"></script>
 	</header>
 	<h1> Ota yhteyttä</h1>
 	<br>
 	<article>
 		<h3> Stockfelt Partners - Moderni asianajotoimisto Turun ICT keskuksessa</h2>
-		<p>Stockfelt Partnersin moderni, vuonna 2005 valmistunut toimistorakennus sijaitsee Joukahaisenkadulla, hyvien kulkuyhteyksien varrella.Toimistomme on avoinna 
+		<p>Stockfelt Partnersin moderni, vuonna 2005 valmistunut toimistorakennus sijaitsee Kupittaalla, hyvien kulkuyhteyksien varrella.Toimistomme on avoinna 
 		arkisin kello 8.00-17.00, mutta puhelinpalvelu on asiakkaidemme käytössä ympäri vuorokauden (ks. <a href="palvelut.html">hinnasto</a>)	. Voit myös ottaa yhteyttä 
 		sähköpostitse jos sinulla on jotain kysyttävää.
 		</p>

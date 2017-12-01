@@ -10,17 +10,20 @@
 	<link rel="icon" href="../Kuvat_taustakuvat/favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<header>
-		<a href="palvelut.html" id="kieli">suomi</a>
-		<a href="../etusivu_en.html" id="logoteksti">SP</a> 
+	<header class="responav" id="myResponav">
 		<nav> <!--Navigointipalkki-->
-			<a href="#" id="mobiili_valikko"></a>
 			<a href="../etusivu_en.html">Home </a>
 			<a href="yritys_en.html">Company </a>
-			<a class="aktiivinen" href="palvelut_en.html">Services </a>
+			<a class="active" href="palvelut_en.html">Services </a>
 			<a href="henkilosto_en.html">Personel</a>
 			<a href="about_en.html">Contact us</a>
+			<a class="kieli active" href="palvelut_en.html"><img src="../Kuvat_taustakuvat/gb.png"> </a>
+			<a class="kieli" href="palvelut.html"><img src="../Kuvat_taustakuvat/fi.png"> </a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mobiilivalikko()">&#9776;</a>
+			
+
 		</nav>
+		<script src="../Javascript/mobiilivalikko.js"></script>
 	</header>
 	<div id="palvelut">
 		<h1> Services</h1>
@@ -43,9 +46,10 @@
 		<p>First 4 hours 150€/hour</p>
 		<p>After that 200€/hour</p>
 	</div>
+	
 	<footer> <!-- Alapalkki -->
 		<small>&copy; Copyright 2017 Stockfelt Partners </small>
-		<a href="../Verkko/Verkkosuunitelma.html" target="_blank">Tietoturva</a>
+
 	</footer>
 </body>
 </html>

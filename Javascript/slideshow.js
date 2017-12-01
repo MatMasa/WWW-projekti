@@ -1,4 +1,4 @@
-// Etusivun diaesitys, automaattisesti vaaihtuva kuva 
+// Etusivun diaesitys, automaattisesti vaihtuva kuva 
 
 var slideIndex = 0;
 showSlides();

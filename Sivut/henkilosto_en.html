@@ -11,17 +11,20 @@
 	
 </head>
 <body>
-	<header>
-		<a href="henkilosto.html" id="kieli">suomi</a>
-		<a href="../etusivu.html" id="logoteksti">SP</a> 
+	<header class="responav" id="myResponav">
 		<nav> <!--Navigointipalkki-->
-			<a href="#" id="mobiili_valikko"></a>
 			<a href="../etusivu_en.html">Home </a>
 			<a href="yritys_en.html">Company </a>
 			<a href="palvelut_en.html">Services </a>
-			<a class="aktiivinen" href="henkilosto_en.html">Personel</a>
+			<a class="active" href="henkilosto_en.html">Personel</a>
 			<a href="about_en.html">Contact us</a>
+			<a class="kieli active" href="henkilosto_en.html"><img src="../Kuvat_taustakuvat/gb.png"> </a>
+			<a class="kieli" href="henkilosto.html"><img src="../Kuvat_taustakuvat/fi.png"> </a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mobiilivalikko()">&#9776;</a>
+			
+
 		</nav>
+		<script src="../Javascript/mobiilivalikko.js"></script>
 	</header>
 		<p>Some intro here =D:</p>
 	  
@@ -34,7 +37,7 @@
 	
 	<footer> <!--Alapalkki-->
 		<small>&copy; Copyright 2017 Stockfelt Partners </small>
-		<a href="../Verkko/Verkkosuunitelma.html" target="_blank">Tietoturva</a>
+
 	</footer>
 </body>
 </html>

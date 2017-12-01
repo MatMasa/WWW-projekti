@@ -10,24 +10,27 @@
 	<link rel="icon" href="../Kuvat_taustakuvat/favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<header>
-		<a href="palvelut_en.html" id="kieli">English</a> 
-		<a href="../etusivu.html" id="logoteksti">SP</a> 
+	<header class="responav" id="myResponav">
 		<nav> <!--Navigointipalkki-->
-			<a href="#" id="mobiili_valikko"></a>
 			<a href="../etusivu.html">Etusivu </a>
 			<a href="yritys.html">Yritys </a>
-			<a class="aktiivinen" href="palvelut.html">Palvelut </a>
+			<a class="active" href="palvelut.html">Palvelut </a>
 			<a href="henkilosto.html">Henkilöstö</a>
 			<a href="about.html">Ota yhteyttä</a>
+			<a class="kieli" href="palvelut_en.html"><img src="../Kuvat_taustakuvat/gb.png"> </a>
+			<a class="kieli active" href="palvelut.html"><img src="../Kuvat_taustakuvat/fi.png"> </a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mobiilivalikko()">&#9776;</a>
+			
+
 		</nav>
+		<script src="../Javascript/mobiilivalikko.js"></script>
 	</header>
 	<div id="palvelut">
 		<h1> Palvelut</h1>
 		<br>
 		<h3>Alkuneuvottelu</h3>
 		<p>Ensimmäinen puhelinneuvottelu tai asian alustava läpikäynti on VELOITUKSETON VAIN JOS</p>
-		<p>läpikäynnissä käytettävä aika on alle 20 minuuttia. Lisäajasta veloitamme 180€/tunti</p>
+		<p>läpikäynnissä käytettävä aika on alle 20 minuuttia. Lisäajasta veloitamme 200€/tunti</p>
 		<br>
 		<h3>Neuvonta / neuvottelu</h3>
 		<p>Alkuneuvottelun jälkeinen neuvonta/neuvottelu: 180€/h</p>
