@@ -17,13 +17,33 @@ body {
 
 }
 header {
-  width: 100%;
-  overflow: hidden;
+	width: 100%;
+	overflow: hidden;
+	background: #ffffff url("../Kuvat_taustakuvat/Header_background.png");
+	background-repeat: repeat;
+	background-position: 60,0;
+	padding:0;
+	margin:0;
+	border:0;
+	
+
+  
+  
+  /* 
+
+ background-image: url("../Kuvat_taustakuvat/Header_background1.png");
+  background-repeat: round;
+  */
+ 
+ 
+  
+  /*
   background-color: rgba(184, 184, 184, 0.6);
+  */
   }
   
   .responav a {
-    color: black;
+    color: white;
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
