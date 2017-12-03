@@ -64,7 +64,12 @@ header {
  .kieli {
   float: right;
  }
-.sivukuva {
+
+.logo {
+  float: left;
+}
+
+ .sivukuva {
   width: 50%;
   height: auto;
   margin-left: auto;
