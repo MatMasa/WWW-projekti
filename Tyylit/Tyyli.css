@@ -1,15 +1,22 @@
 html {font-family:"Lato", sans-serif }
 
-.center{text-align:center}
 .section{margin-left:5%;margin-right:10%}
-.padding-64{padding-top:64px;padding-bottom:32px}
+.padding-top{padding-top:64px;}
+
 
 .intro {
     text-align: center;
 }
 
-
-
+a:link, a:visited {
+  color: #636363;
+  text-decoration: none;
+  font-size: 130%;
+}
+a:hover {
+  color: #3895ff;
+  font-size: 150%;
+}
 body {    
   overflow-x: hidden;  
   padding-bottom: 20px; 
@@ -25,7 +32,6 @@ header {
 	padding:0;
 	margin:0;
 	border:0;
-	
   /* Vanhat valuet
   background-color: rgba(184, 184, 184, 0.6);
   */
@@ -50,8 +56,6 @@ header {
 
 }  
   
-  
-  
  .responav .icon {
     display: none;
   }
@@ -59,12 +63,6 @@ header {
  .kieli {
   float: right;
  }
-aside {
-
- max-width: 50%;
- margin-left: auto;
- margin-right: auto;
-}
 
 article {
     text-align: center;
@@ -125,7 +123,6 @@ article {
 .design {
   margin: 1px;;
   text-align: center;
-
 }
 
 footer {
@@ -187,7 +184,7 @@ footer {
     }
 }
 @media only screen and (max-width: 800px) {
-    aside {
+    .lyhyesti {
       width: 100%;
     
 	}
