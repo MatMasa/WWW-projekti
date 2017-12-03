@@ -63,7 +63,14 @@ header {
  .kieli {
   float: right;
  }
-
+.sivukuva {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  margin-bottom:5%; 
+}
 article {
     text-align: center;
     width: 80%;
@@ -86,8 +93,6 @@ article {
   margin-top: 10px;
 
 }
-
-
 
 /* Pisteet kuvasliden alla */
 .dot {
@@ -171,11 +176,7 @@ footer {
     article {
       margin-top: 55px;
     }
-    footer {
-      position: relative;
-      margin-top: 5%;
-
-    }
+    
     .slideshow-container {
       margin-top: 55px;
     }
@@ -184,16 +185,16 @@ footer {
     }
 }
 @media only screen and (max-width: 800px) {
-    .lyhyesti {
-      width: 100%;
-    
-	}
-	
+  footer {
+    position: relative;
+    margin-top: 5%;
+
+  }  
     header {
         font-size: 75%;
 
     }
     article {
-        width: 100%
+        width: 99%
     }
 }
