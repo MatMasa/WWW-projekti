@@ -46,7 +46,7 @@ header {
     font-size: 150%;
   }
   
-  .responav a:hover:not(.aktiivinen) {
+  .responav a:hover:not(.active) {
     background-color: #ddd;
     color: #ff7605;
   }
@@ -106,7 +106,7 @@ article {
 }
 
 .active {
-  background-color: #727272;
+  background-color: #474747;
 }
 
 /*  Vaihtoanimaatio */
