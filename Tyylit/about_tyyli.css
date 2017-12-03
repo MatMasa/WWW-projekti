@@ -21,5 +21,7 @@ iframe {
 		font-size: 120%;
 		float: none;
 		width:100%;
+		text-align: center;
+		background-color: #aaaaaa
 	}
 }
