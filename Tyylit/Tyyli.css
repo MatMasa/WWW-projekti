@@ -224,3 +224,9 @@ footer {
       width: 98%;
     }
 }
+
+@media only screen and (max-height: 800px) {
+  footer {
+    position: relative;
+    margin-top: 5%;
+}
