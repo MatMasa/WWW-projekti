@@ -1,0 +1,51 @@
+.yhteystiedot_kortti {
+    box-shadow: 1px 4px 8px 0 #757575;
+    transition: 0.3s;
+    width:50%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    padding: 1%;
+    
+}
+
+.yhteystiedot_kortti h2 {
+    font-size: 2em;
+}
+.yhteystiedot_kortti h3 {
+    font-style: italic;
+}
+
+.yhteystiedot_kortti p {
+    font-size: 150%;
+
+}
+
+.info {
+    margin-top: 5%;
+    margin-bottom:5%;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    .yhteystiedot_kortti {
+        width: 75%;
+
+
+}
+}
+@media only screen and (max-width: 650px) {
+    
+        .yhteystiedot_kortti {
+            width: 95%;
+        }
+        .yhteystiedot_kortti p {
+            font-size: 100%
+        }
+        .yhteystiedot_kortti h2 {
+            font-size: 1.5em;
+        }
+    
+    }

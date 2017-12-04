@@ -1,0 +1,16 @@
+#palvelut {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#palvelut h3 {
+    color: #666666;
+    margin-top: 1%;
+    margin-bottom: 25px;
+}
+
+#palvelut p {
+    color: #2a2e5e;
+    margin-bottom: 20px;
+}

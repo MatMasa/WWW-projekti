@@ -1,0 +1,27 @@
+﻿#kartta {	/* Määrittää "Ota Yhteyttä" sivun kartan responsiiviset mitat (<iframe id="kartta") */
+	width:50%;
+	max-height:90%;
+	
+}
+.tietokartta {	/* Yrityksen yhteystiedot kartan vieressä */
+	font-size: 150%;
+	float:right;
+	width:45%;
+
+}
+iframe {
+	margin-left:1% 
+}
+
+@media only screen and (max-width: 800px) {
+	#kartta {
+		width:97%;
+}
+	.tietokartta {
+		font-size: 120%;
+		float: none;
+		width:100%;
+		text-align: center;
+		background-color: #aaaaaa
+	}
+}
